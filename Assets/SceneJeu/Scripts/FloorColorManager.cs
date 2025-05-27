@@ -7,7 +7,8 @@ public class FloorColorManager : MonoBehaviour
     public Renderer floorRenderer;
     public Material successMat;
     public Material failMat;
-    
+
     public void SetSuccess() => floorRenderer.material = successMat;
     public void SetFail() => floorRenderer.material = failMat;
+
 }
